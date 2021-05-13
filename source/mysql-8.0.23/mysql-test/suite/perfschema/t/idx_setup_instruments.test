@@ -1,0 +1,18 @@
+# Performance schema tests generally depend on specific query plans
+# and behavior, and much of the perfschema suite is therefore disabled
+# if the hypergraph optimizer is active.
+--source include/not_hypergraph.inc
+
+# Tests for PERFORMANCE_SCHEMA
+
+#setup
+let $select_column = ENABLED;
+let $table = performance_schema.setup_instruments;
+
+# Test index on NAME
+
+let $column_count = 1;
+let $col1 = NAME;
+let $col1_act = "statement/sql/select";
+
+--source ../include/idx_explain_test.inc
