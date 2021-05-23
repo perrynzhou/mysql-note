@@ -7,4 +7,5 @@
 
 
 ## 分享
--  [MySQL8源码安装](./document/md/MySQL8源码安装.md)
+-  [MySQL源码安装](./document/md/MySQL源码安装.md)
+-  [MySQL基于GTID主从复制入门](./document/md/MySQL基于GTID主从复制入门.md)
