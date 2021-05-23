@@ -7,4 +7,4 @@
 
 
 ## 分享
--  [MySQL8源码安装](./document/md/lMySQL8源码安装.md)
+-  [MySQL8源码安装](./document/md/MySQL8源码安装.md)
