@@ -48,12 +48,12 @@ make install
   ```
   [root@CentOS8 /data1]$ cat my.cnf 
 
-[mysqld]
-server-id=1
-port=3306
-datadir=/data1/mysql/data
-log_error=/data1/mysql/log/error.log
-pid_file=/data1/mysql/data/mysql.pid
+  [mysqld]
+  server-id=1
+  port=3306
+  datadir=/data1/mysql/data
+  log_error=/data1/mysql/log/error.log
+  pid_file=/data1/mysql/data/mysql.pid
   ```
 
 - 初始化mysql
